@@ -1,0 +1,489 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.header {
+
+    padding: 10px 0;
+}
+
+.header-bg {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 12px 0;
+
+}
+
+nav .container ul li .li-hover {
+    transition: all 1s;
+}
+
+.navbar-nav .nav-link.active {
+    position: relative;
+    color: #807878;
+}
+
+.navbar-nav .nav-link.active::before {
+    content: "";
+    position: absolute;
+    background-color: aliceblue;
+    width: 65%;
+    height: 3px;
+    left: 14px;
+    bottom: 11px;
+
+}
+
+nav .container .navbar-collapse .nav-item {
+    position: relative;
+}
+
+
+nav .container .navbar-collapse .nav-item .a-ul::after {
+    content: "";
+    position: absolute;
+    background-color: aliceblue;
+    width: 0%;
+    height: 3px;
+    left: 14px;
+    bottom: 11px;
+    transition: all 0.8s;
+}
+
+nav .container .navbar-collapse .nav-item .a-ul:hover::after {
+    width: 50px;
+
+}
+
+
+nav .container .navbar-collapse .a-ull::after {
+    content: "";
+    position: absolute;
+    background-color: aliceblue;
+    width: 0%;
+    height: 3px;
+    left: 14px;
+    bottom: 11px;
+    transition: all 0.8s;
+}
+
+nav .container .navbar-collapse .a-ull:hover::after {
+    width: 85px;
+
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown:hover .right-menu {
+    display: none;
+    margin-top: 0;
+    margin-left: 100%;
+}
+
+.inner-menu:hover .right-menu {
+    display: block;
+    margin-top: -45px;
+    margin-left: 100%;
+
+}
+
+.dropdown-item:hover {
+    color: #0078ff;
+}
+
+
+
+@media (max-width:992px) {
+
+    .dropdown:hover .right-menu {
+        display: noun;
+        margin-top: 0;
+
+    }
+
+    .drop-mt {
+        margin-top: 135px;
+    }
+
+    .inner-menu:hover .right-menu {
+        display: block;
+        margin: 0;
+        position: absolute;
+        visibility: visible;
+        top: 8px;
+        left: 153px;
+        padding: 5px;
+
+    }
+
+    .li-hover:hover {
+        color: #0078ff !important;
+
+    }
+
+    .navbar-nav .nav-link.active::before {
+        content: "";
+        position: absolute;
+        background-color: aliceblue;
+        width: 7%;
+        height: 3px;
+        left: 14px;
+        bottom: 11px;
+
+    }
+
+}
+
+.third-cont button {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+}
+
+.third-cont button:hover {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.font1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+
+    .font1 {
+        padding-left: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.start {
+    background-image: linear-gradient(rgba(0, 123, 255, 0.584), rgba(0, 34, 255, 0.453)), url(photos/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.start h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67px;
+}
+
+.start p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.project-cap h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color:
+        rgb(30, 30, 30);
+}
+
+.project-cap p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color:
+        rgb(121, 119, 119);
+}
+
+.project-cap span {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    color: rgb(78, 78, 78);
+}
+
+.cap h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    color:
+        rgb(30, 30, 30);
+}
+
+.cap p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:
+        rgb(121, 119, 119);
+}
+
+.third h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color:
+        rgb(30, 30, 30);
+}
+
+.third p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:
+        rgb(121, 119, 119);
+}
+
+.cont-start {
+    padding-top: 150px;
+}
+
+.shapeee {
+    height: 50px;
+    width: 6px;
+
+}
+
+.search-btn {
+    height: 30px;
+}
+
+.search-btn i {
+    color: white;
+}
+
+.post a {
+    position: relative;
+    color: black;
+    transition: all;
+
+}
+
+.post a::before {
+    content: "";
+    position: absolute;
+    background: #0078FF;
+    width: 14px;
+    height: 1px;
+    top: 13px;
+    left: -9px;
+}
+
+.post a:hover {
+    color: #0078FF;
+
+}
+
+.post {
+    margin-top: 90px;
+}
+
+.search-caption h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    color: rgb(30, 30, 30);
+}
+
+.post h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    color: rgb(30, 30, 30);
+}
+
+.post a {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:
+        rgb(121, 119, 119);
+}
+
+.post button {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.comment h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: rgb(30, 30, 30);
+}
+
+.comment-caption h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: rgb(30, 30, 30);
+}
+
+.comment-caption span {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:
+        rgb(82, 79, 79);
+}
+
+.comment-caption p,
+a {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:
+        rgb(121, 119, 119);
+}
+
+.third-cont h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: rgb(30, 30, 30);
+}
+
+.third-cont button {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+
+}
+
+
+
+@media (max-width:992px) {
+
+    .high {
+        margin-top: -10%;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 576px) {
+
+    .comment-caption p,
+    a {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(121, 119, 119);
+    }
+
+    .comment-caption {
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+}
+
+
+.last-foot {
+
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.back-to-top i {
+    font-size: 14px;
+    color: #fff;
+    line-height: 0;
+}
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
